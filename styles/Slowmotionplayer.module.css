@@ -1,4 +1,33 @@
 .background {
-    border: 1px solid red;
     margin: auto;
+    text-align: center;
+}
+
+.background button {
+    width: 280px;
+    height: 40px;
+    background: #000000;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: auto;
+    transition: background .7s ease-out;
+}
+
+.background button:hover {
+    background: red;
+    transition: background .7s ease-in;
+}
+
+.background a {
+    font-weight: bold;
+    color:white;
+}
+
+.background Image {
+    position: absolute;
+    top:-500;
+    left: 0;
 }
