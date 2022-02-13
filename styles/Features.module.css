@@ -1,0 +1,22 @@
+.background {
+    background: transparent;
+}
+
+.background ul {
+    padding: 0;
+}
+
+.texts a {
+    font-size: 24px;
+    color:white;
+}
+
+.texts span {
+    font-size: 13px;
+}
+
+.texts {
+    text-justify: inter-word;
+    text-align: justify;
+    height: 150px;
+}

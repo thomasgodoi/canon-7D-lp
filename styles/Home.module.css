@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background: red
 }
 
 .main {
@@ -10,22 +11,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -104,8 +89,9 @@
 }
 
 .logo {
-  height: 1em;
+  display: flex;
   margin-left: 0.5rem;
+  filter: drop-shadow(0 0 4px black);
 }
 
 @media (max-width: 600px) {
@@ -113,4 +99,71 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.background {
+  background: #1B1B1B;
+}
+
+.main a:hover {
+  color: rgb(255, 255, 255);
+  transform: scaleX(1)
+}
+
+.main a {
+  color: rgb(138, 138, 138);
+  margin: 5px 0;
+  transition: color .2s ease-in-out;
+}
+
+.main ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 750px;
+}
+
+.main hr {
+  opacity: 0;
+  width: 0;
+  transition: .6s width ease-out, opacity 1s ease-out;
+}
+
+.main li:hover > hr {
+  opacity: 1;
+  width: 100%;
+  transition: .6s width ease-out, opacity 1s ease-out;
+}
+
+.main li:hover > .navbar a {
+  color: white;
+}
+
+.main span {
+  color: white;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: space-between;
+  font-weight: light;
+  position: absolute;
+  top: 0;
+}
+
+
+.credits {
+  display: flex;
+  flex: 1;
+  height: 50px;
+  border-top: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2%;
+}
+
+.credits a {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
