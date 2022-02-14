@@ -12,7 +12,7 @@ export default function VideoCarousel(props) {
         if(state === true) {
             vid.playbackRate = 1;
         } else {
-            vid.playbackRate = 16;
+            vid.playbackRate = 5;
         }
     }
 
