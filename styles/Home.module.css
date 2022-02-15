@@ -1,6 +1,5 @@
 .container {
   padding: 0 2rem;
-  background: red
 }
 
 .main {
@@ -11,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 .title a {

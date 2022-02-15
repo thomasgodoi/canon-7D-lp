@@ -11,8 +11,6 @@ import styles from "../styles/Home.module.css";
 import Features from "./components/features";
 import SlowmotionPlayer from "./components/slowmotionPlayer";
 
-
-
 export default function Home() {
   return (
     <div className={styles['background']}>
@@ -44,7 +42,7 @@ export default function Home() {
 
                 <div style={{textAlign:'justify', marginTop:'60px'}}>
                   <a style={{background: 'red', color:'white', fontWeight:'bold', fontSize:'24px', padding: '0 17px', padding:'0 15px'}}>
-                    CANON&apos;S BIGGEST PROJECT TO DATE
+                    CANON&apos;S BIGGEST PROJECT TO DATE 
                   </a>
                   <span style={{width:'600px', color:'white', fontWeight:'lighter', fontSize:'13px'}}>
                     <br/>
@@ -80,20 +78,20 @@ export default function Home() {
             </div>
 
             <button style={{display:'block', textAlign:'center', margin:'auto', background:'transparent', border:'none', marginTop:'30px'}}> 
-              <br/> <a style={{cursor:'pointer'}}>FIND OUT MORE</a> <br/><br/>
+              <br/> <a style={{cursor:'pointer'}} href="#features">FIND OUT MORE</a> <br/><br/>
               <Image src={FindOutMoreIcon} alt="Find out more" width={20} height={20} className={styles['find-out-more-icon']}/> <br/>
             </button>
 
-            <div style={{width: '750px', margin:'auto', marginTop:'50px'}}>
+            <div style={{width: '750px', margin:'auto', marginTop:'100px'}} id="features">
               <Features />
             </div>
           
-            <div style={{width: '750px', margin:'auto'}}>
+            <div style={{width: '750px', margin:'auto'}} id="slowmotion-player">
               <SlowmotionPlayer />
             </div>
 
-            <div style={{display:'flex', justifyContent:'center', marginTop:'50px'}}>
-              <Image src={CanonLogo} alt="Canon" width={60} height={20} />
+            <div style={{display:'flex', justifyContent:'center', marginTop:'10px'}}>
+              <Image src={CanonLogo} alt="Canon" width={60} height={20} id="logo-canon"/>
             </div>
           </div>
 
