@@ -143,6 +143,7 @@
 }
 
 .navbar {
+  cursor: pointer;
   display: inline-flex;
   justify-content: space-between;
   font-weight: light;
