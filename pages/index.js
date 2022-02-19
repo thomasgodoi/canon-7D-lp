@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import GithubLogo from './content/icons/github-icon.png';
 
+import GithubLogo from './content/icons/github-icon.png';
 import Camera from './content/images/canon-7d.png';
 import CanonLogo from './content/images/canon-logo.jpg';
 import EOS7D from './content/images/EOS-7D-horizontal-white.png';
@@ -46,10 +46,9 @@ export default function Home() {
                   </a>
                   <span style={{width:'600px', color:'white', fontWeight:'lighter', fontSize:'13px'}}>
                     <br/>
-                    Pokem ipsum dolor sit amet fishing rod Excadrill Deino Pokedex Pokemon Heroes Officer Jenny. 
-                    Sapphire Brock Basculin Leavanny Water Turtwig they&apos;re comfy and easy to wear. Ut aliquip ex ea commodo consequat Slash Golett Mr.
-                    Mime Durant Leech Seed Water Gun. V for victory Rotom Suicune Ice Weepinbell Shaymin Gible. Pokemon Heroes Hidden Machine to denounce the evils 
-                    of truth and love Fire Dark Eelektrik Shinx.
+                    The EOS 7D is an excellent addition to Canon&apos;s range of APS-C DSLRs that is, in terms of build quality, speed of operation, ergonomics and image quality, 
+                    a cut above Canon&apos;s previous APS-C flagship. Its eight frames per second continuous shooting speed and highly flexible AF system, coupled 
+                    with an 18Mp CMOS sensor with formidable high ISO capabilities make the Canon EOS 7D one of the finest APS-C DSLRs in the market.
                   </span>
                 </div>
               </div>
@@ -64,23 +63,23 @@ export default function Home() {
                   <a style={{fontWeight:'bold', fontSize:'23px', color:'white'}}>THE BEST ENVIRONMENT SEALING IN THE MARKET</a>
                   <br/>
                   <span style={{fontSize:'13px', fontWeight: 'lighter'}}>
-                  Pokem ipsum dolor sit amet fishing rod Excadrill Deino Pokedex Pokemon Heroes Officer Jenny. Sapphire Brock Basculin Leavanny Water Turtwig they&apos;re
-                  comfy and easy to wear. Ut aliquip ex ea commodo consequat Slash Golett Mr. Mime Durant Leech Seed Water Gun. V for victory Rotom Suicune Ice Weepinbel Shinx.
+                  Weather Sealing is protection of the internal parts of a camera from external influences such as moisture, dust, and humidity. The EOS 7D showed excellence in
+                  performance in all kinds of weather tests, making it a reliable camera to bring everywhere.
                   </span>
               </div>
               <div style={{marginTop:'50px', color:'white', width:'590px', textAlign:'justify'}}>
                 <a style={{fontWeight:'bold', fontSize:'23px', color:'white'}}>SUPER SLOW MOTION FEATURE</a>
                 <br/>
                 <span style={{fontSize:'13px', fontWeight: 'lighter'}}>
-                  Ut aliquip ex ea commodo consequat Slash Golett Mr. Mime Durant Leech Seed Water Gun. V for victory Rotom Suicune Ice Weepinbell Shaymin Gible.
+                  It is now possible to record up to 1000 frames per second in all resolutions, bringing a new range of ideas to your creativity.
                 </span>
               </div>
             </div>
 
-            <button style={{display:'block', textAlign:'center', margin:'auto', background:'transparent', border:'none', marginTop:'30px'}}> 
-              <br/> <a style={{cursor:'pointer'}} href="#features">FIND OUT MORE</a> <br/><br/>
+            <a href="#features" style={{display:'flex', margin:'auto', marginTop:'30px', justifyContent: 'center'}}> 
+              <br/> <span style={{cursor:'pointer'}} >FIND OUT MORE &nbsp;</span> <br/><br/>
               <Image src={FindOutMoreIcon} alt="Find out more" width={20} height={20} className={styles['find-out-more-icon']}/> <br/>
-            </button>
+            </a>
 
             <div style={{width: '750px', margin:'auto', marginTop:'100px'}} id="features">
               <Features />
@@ -106,14 +105,6 @@ export default function Home() {
         </span>
       </a>
     </footer>
-
-
-
-
-
-
-
-      
       <style jsx global> 
             {`
                 html,

@@ -17,7 +17,7 @@ export default function SlowmotionPlayer() {
             <Image src={ViewFinder} width="720" height ="480" alt=""/>
             <VideoCarousel slowMotion={isSlowMotionOn} />
             <button onMouseOver={() => handleSlowMotion(true)} onMouseLeave={() =>handleSlowMotion(false)}>
-                <a>Activate Ultra Slow Motion</a>
+                <a>Hover to activate Ultra Slow Motion</a>
             </button>
          </div>
     )
