@@ -38,7 +38,7 @@ export default function Home() {
               <div style={{width:'600px', display:'block', textAlign:'center'}}>
                 <a style={{fontSize:'77px', color:'white', fontWeight:'lighter', lineHeight: '100px'}}> INTRODUCING</a>
                 <br/>
-                <Image src={EOS7D} alt="EOS 7D" width={546} height={101}/>
+                <Image src={EOS7D} alt="EOS 7D" width={546} height={101} />
 
                 <div style={{textAlign:'justify', marginTop:'60px'}}>
                   <a style={{background: 'red', color:'white', fontWeight:'bold', fontSize:'24px', padding: '0 17px', padding:'0 15px'}}>
