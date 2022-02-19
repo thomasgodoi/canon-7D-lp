@@ -109,6 +109,7 @@ export default function Home() {
             {`
                 html,
                 body {
+                  scroll-behavior: smooth;
                   font-family: 'Cairo', sans-serif;
                 }
             `}
