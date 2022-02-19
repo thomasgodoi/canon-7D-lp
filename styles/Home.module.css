@@ -167,6 +167,13 @@
   justify-content: center;
 }
 
+.find-out-more {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+}
+
 .find-out-more-icon {
   cursor: pointer
 }

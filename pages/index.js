@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
 
-            <a href="#features" style={{display:'flex', margin:'auto', marginTop:'30px', justifyContent: 'center'}}> 
+            <a href="#features" className={styles['find-out-more']}> 
               <br/> <span style={{cursor:'pointer'}} >FIND OUT MORE &nbsp;</span> <br/><br/>
               <Image src={FindOutMoreIcon} alt="Find out more" width={20} height={20} className={styles['find-out-more-icon']}/> <br/>
             </a>
