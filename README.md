@@ -28,5 +28,5 @@ Any feedback is appreciated. Thank you so much for your attention!
 <div align="center">
   <img width="1000" src="https://user-images.githubusercontent.com/49569227/154803144-d81a0a4d-22a2-44fc-bace-6ba14e6ee646.gif"/>
   
-  <span>Slow motion feature by hoving the mouse on a button </span>
+  <span>Slow motion feature when hovering the mouse on button </span>
 </div>
